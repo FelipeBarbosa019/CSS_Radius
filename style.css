@@ -1,0 +1,47 @@
+.foto {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;    
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(12, 53, 6),  rgb(64, 167, 95), rgb(12, 53, 6));
+    background-attachment: fixed;
+}
+
+h1 {
+    margin-inline-start: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white; 
+}
+
+.turing {
+    width: 60px;
+    height: 60px;
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+nav {
+  
+    color: beige;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 40px;
+    gap: 13px;
+   
+}
+
+.cabeçalho {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+}
